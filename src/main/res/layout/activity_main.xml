@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--****************************************************************************
+                         **************   Row 1      **************
+    **************************************************************************** -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10px"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/c1up"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_add_black_24dp"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/color1"
+                android:layout_width="140dp"
+                android:layout_height="65dp"
+                android:layout_margin="5dp"
+                android:textSize="60px"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/c1down"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Red"
+            android:textSize="90px" />
+
+    </LinearLayout>
+    <!--****************************************************************************
+                         **************   Row 2      **************
+    **************************************************************************** -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10px"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/c2up"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_add_black_24dp"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/color2"
+                android:layout_width="140dp"
+                android:layout_height="65dp"
+                android:layout_margin="5dp"
+                android:textSize="60px"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/c2down"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Green"
+            android:textSize="90px" />
+
+    </LinearLayout>
+    <!--****************************************************************************
+                         **************   Row 3      **************
+    **************************************************************************** -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10px"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/c3up"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_add_black_24dp"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/color3"
+                android:layout_width="140dp"
+                android:layout_height="65dp"
+                android:layout_margin="5dp"
+                android:textSize="60px"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/c3down"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Blue"
+            android:textSize="90px" />
+
+    </LinearLayout>
+    <!--****************************************************************************
+                      **************   Final Color   **************
+    **************************************************************************** -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/final_color"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>
